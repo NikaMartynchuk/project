@@ -16,16 +16,4 @@
     color: #fff;
   }
 
-  .container {
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  .header-s {
-    align-items: baseline;
-  }
-
-  .maim-img {
-    width: 871px;
-    height: 784px;
-  }
+  
