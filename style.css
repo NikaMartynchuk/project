@@ -1,0 +1,31 @@
+.header-button {
+    top:50%;
+    background-color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    margin-right: 65px;
+  }
+
+  .header-button:hover {
+    background-color:#0a0a23;
+    color: #fff;
+  }
+
+  .container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .header-s {
+    align-items: baseline;
+  }
+
+  .maim-img {
+    width: 871px;
+    height: 784px;
+  }
