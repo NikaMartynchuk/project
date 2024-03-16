@@ -1,19 +1,301 @@
 .header-button {
-    top:50%;
-    background-color: #fff;
-    border:none; 
-    border-radius:10px; 
-    padding:15px;
-    min-height:30px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 21px;
-    margin-right: 65px;
-  }
+  top: 50%;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  min-height: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 21px;
+  margin-right: 32px;
+}
 
-  .header-button:hover {
-    background-color:#0a0a23;
-    color: #fff;
-  }
+.header-button:first-child {
+  margin-left: 642px;
+}
 
-  
+.header-button:hover {
+  background-color: #0a0a23;
+  color: #fff;
+}
+
+
+#container-one {
+  list-style: none;
+  display: flex;
+  padding: 24px 0;
+  margin: 20px auto 20px;
+  padding-left: 100px;
+}
+
+
+
+.section-one {
+  width: 1720px;
+  height: 722px;
+  left: 100px;
+  top: 164px;
+  background-color: #F4F6F5;
+  border-radius: 59px;
+  padding-top: 56px;
+  padding-bottom: 63px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-image: url(photos/beautifulgirl.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 871px;
+}
+
+.main-but {
+  top: 50%;
+  background-color: #0a0a23;
+  color: white;
+  border: none;
+  border-radius: 10px;
+padding-left: 41px;
+padding-right: 41px;
+padding-top: 18px;
+padding-bottom: 19px;
+  min-height: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  margin-left: 32px;
+}
+
+.main-but:hover {
+  background-color: white;
+  color: #000000;
+}
+
+.explore{
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 96px;
+  width: 474px;
+  height: 473px;
+  margin-top: 77px;
+  margin-left: 119px;
+}
+
+.main-text{
+height: 58px;
+top: 754px;
+left: 219px;
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-size: 32px;
+margin-left: 119px;
+}
+
+.vectorbut{
+  margin-left: 119px;
+}
+
+
+.vector-img{
+  width: 190px;
+}
+
+.brands{
+  margin-top: 63px;
+  width: 1920px;
+height: 186px;
+background-color: rgba(235, 217, 107, 1);
+}
+
+.brand-img{
+  margin-left: 121px;
+  margin-top: 52px;
+}
+
+.brand-img:hover{
+  box-shadow: 2px 4px 10px #626117;
+}
+
+.new-arrivals{
+  width: 404px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  margin-left: 104px;
+  margin-top: 69px;
+  margin-bottom: 118px;
+}
+
+.main-h-one{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  margin-top: 28px;
+}
+
+.explore-now{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 7px;
+  color: grey;
+}
+
+.new-arivals .container{
+  margin-top: 20px;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.girls-div{
+  align-items: center;
+margin-left: 90px;
+background-image: url(photos/arrow.png);
+background-repeat: no-repeat;
+background-position: bottom right;
+}
+
+.girls-div:first-child{
+  margin-left: 104px;
+}
+
+.spend-min{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 36.04px;
+  width: 643.09px;
+  margin-top: 7px;
+  margin-left: 32px;
+}
+
+.main-b{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 36.04px;
+  width: 428.99px;
+  margin-top: 40.69px;
+  margin-left: 32px;
+}
+
+.main-term{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 36.04px;
+  width: 643.09px;
+  margin-top: 7px;
+  margin-left: 32px;
+}
+
+.payday{
+  margin-top: 190px;
+  width: 1924px;
+  height: 968px;
+  background-image: url(photos/yellowgirll.jpg);
+  background-repeat: no-repeat;
+  background-size: 1924px;
+  background-position: bottom left;
+padding-left: 1054px;
+}
+
+.payimg{
+  padding-top: 200px;
+}
+
+#button-one{
+  margin-top: 30px;
+}
+
+.section-trending{
+  margin-top: 190px;
+}
+
+.pinkk-girls{
+  margin-top: 104px;
+  margin-right: 100px;
+}
+
+.rose-girls{
+  margin-top: 104px;
+margin-left: 100px;
+}
+
+#one-girl{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  padding-top: 104px;
+  background-image: url(photos/arrow.png);
+background-repeat: no-repeat;
+background-position: bottom;
+}
+
+.section-trending .container{
+  margin-top: 104px;
+  margin-top: 20px;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fav{
+  margin-left: 100px;
+}
+
+.download-app{
+  width: 507px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  padding-top: 101px;
+}
+
+.main-sale{
+  width: 419px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  padding-top: 41px;
+  color: rgba(124, 124, 124, 1);
+}
+
+.DOWNLOAD-two{
+  width: 427px;
+  height: 71px;
+  padding-top: 65px;
+}
+
+.app .container{
+  width: 1483px;
+margin-top: 225px;
+  background-size: 348px;
+  background-repeat: no-repeat;
+  background-image: url(photos/app.png);
+  padding-bottom: 147px;
+  background-position: bottom right 20px;
+  padding-left: 219px;
+  margin-left: 20px;
+}
+
+.join-shop{
+  width: 966px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 55px;
+  padding-top: 361px;
+  color: white;
+  padding-left: 476px;
+  text-align: center;
+}
+
+.type-your{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  padding-top: 37px;
+  color: white;
+  padding-left: 475px;
+}
+
+.shop-com .container{
+  background-color: rgba(229, 198, 67, 1);
+}
