@@ -391,8 +391,8 @@ background: #FFFFFF;
 border-radius: 10px;
 }
 
-
 .form__field{
+  border: 0;
 width: 269px;
 height: 25px;
 left: 700px;
