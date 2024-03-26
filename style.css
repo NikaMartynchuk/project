@@ -11,43 +11,79 @@
   margin-right: 32px;
 }
 
-.header-button:first-child {
-  margin-left: 642px;
-}
 
 .header-button:hover {
   background-color: #0a0a23;
   color: #fff;
 }
 
+.container-form{
+  background-color: rgba(229, 198, 67, 1);
+}
+
+.programms{
+padding-top: 32px;
+padding-right: 14px;
+}
 
 #container-one {
   list-style: none;
   display: flex;
   padding: 24px 0;
-  margin: 20px auto 20px;
-  padding-left: 100px;
+  justify-content: space-between;
 }
 
+#footer-div-two{
+margin-left: 100px;
+}
 
+.container-footer{
+display: flex;
+justify-content: space-between;
+padding-top: 185px;
+padding-bottom: 149px;
+align-items: baseline;
+}
+
+.maln-p{
+  margin-top: 32px;
+}
+
+#company{
+color: #D9D9D9;
+}
+
+.footer-div{
+  padding-left: 100px;
+  font-family: "About", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  width: 435px;
+  padding-top: 32px;
+  color: #8E8E8E;
+}
+
+.main-style{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  width: 435px;
+  padding-top: 32px;
+  color: #8E8E8E;
+  ;
+}
 
 .section-one {
-  width: 1720px;
-  height: 722px;
   left: 100px;
   top: 164px;
   background-color: #F4F6F5;
   border-radius: 59px;
   padding-top: 56px;
-  padding-bottom: 63px;
-  margin-left: 100px;
-  margin-right: 100px;
-  background-image: url(photos/beautifulgirl.png);
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  background-size: 871px;
 }
 
+.container__item{
+  padding-bottom: 156px;
+}
 .main-but {
   top: 50%;
   background-color: #0a0a23;
@@ -70,14 +106,33 @@ padding-bottom: 19px;
   color: #000000;
 }
 
+
+
 .explore{
+  z-index: 100;
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-size: 96px;
   width: 474px;
   height: 473px;
+  position: relative;
   margin-top: 77px;
   margin-left: 119px;
+  line-height: 120px;
+  margin-bottom: 40px;
+}
+
+
+
+.explore::before{
+z-index: -1;
+right: 32px;
+rotate: 2;
+  content: "";
+  position: absolute;
+  background-image: url(photos/Shopping\ Website\ \(Community\)\ \(4\).zip);
+  width: 464px;
+height: 112px;
 }
 
 .main-text{
@@ -94,22 +149,21 @@ margin-left: 119px;
   margin-left: 119px;
 }
 
-
+.brand-sec{ 
+background-color: rgba(235, 217, 107, 1);
+}
 .vector-img{
   width: 190px;
 }
 
 .brands{
   margin-top: 63px;
-  width: 1920px;
-height: 186px;
-background-color: rgba(235, 217, 107, 1);
+display: flex;
+justify-content: space-between;
+padding-top: 61px;
+padding-bottom: 61px;
 }
 
-.brand-img{
-  margin-left: 121px;
-  margin-top: 52px;
-}
 
 .brand-img:hover{
   box-shadow: 2px 4px 10px #626117;
@@ -120,7 +174,6 @@ background-color: rgba(235, 217, 107, 1);
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-size: 48px;
-  margin-left: 104px;
   margin-top: 69px;
   margin-bottom: 118px;
 }
@@ -143,27 +196,27 @@ background-color: rgba(235, 217, 107, 1);
 .new-arivals .container{
   margin-top: 20px;
   justify-content: space-between;
-  display: flex;
   flex-wrap: wrap;
 }
 
+.girl{
+  display: flex;
+  justify-content: space-between;
+
+}
 .girls-div{
   align-items: center;
-margin-left: 90px;
 background-image: url(photos/arrow.png);
 background-repeat: no-repeat;
 background-position: bottom right;
 }
 
-.girls-div:first-child{
-  margin-left: 104px;
-}
 
 .spend-min{
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 36.04px;
-  width: 643.09px;
+  width: 673.09px;
   margin-top: 7px;
   margin-left: 32px;
 }
@@ -187,16 +240,17 @@ background-position: bottom right;
 }
 
 .payday{
+  background-image: linear-gradient(to left top, #E0C340, #DFC23E, #E1C441, #E3C743, #E4C542, #E6C744, #E7C845, #E5C643, #E6C945, #E3C743, #E9CA48,#EDCE49, #F0D44C, #F4D84F, #F6DA52, #F7DB53, #F9DD55, #F9DF56, #FAE157, #F9DF56);
   margin-top: 190px;
-  width: 1924px;
-  height: 968px;
-  background-image: url(photos/yellowgirll.jpg);
-  background-repeat: no-repeat;
-  background-size: 1924px;
-  background-position: bottom left;
-padding-left: 1054px;
 }
 
+.sale-now{
+padding-left: 68px;
+}
+
+.payday .container-1{
+  display: flex;
+}
 .payimg{
   padding-top: 200px;
 }
@@ -211,12 +265,10 @@ padding-left: 1054px;
 
 .pinkk-girls{
   margin-top: 104px;
-  margin-right: 100px;
 }
 
 .rose-girls{
   margin-top: 104px;
-margin-left: 100px;
 }
 
 #one-girl{
@@ -226,14 +278,24 @@ margin-left: 100px;
   padding-top: 104px;
   background-image: url(photos/arrow.png);
 background-repeat: no-repeat;
-background-position: bottom;
+background-position: bottom right;
+}
+
+.fashion-h1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: white;
+}
+
+.trending-wrap{
+  display: flex;
+  justify-content: space-between;
 }
 
 .section-trending .container{
   margin-top: 104px;
-  margin-top: 20px;
   justify-content: space-between;
-  display: flex;
   flex-wrap: wrap;
 }
 
@@ -246,7 +308,11 @@ background-position: bottom;
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-size: 48px;
-  padding-top: 101px;
+  padding-top: 280px;
+}
+
+.DOWNLOAD{
+  padding-left: 100px;
 }
 
 .main-sale{
@@ -265,15 +331,10 @@ background-position: bottom;
 }
 
 .app .container{
-  width: 1483px;
-margin-top: 225px;
-  background-size: 348px;
-  background-repeat: no-repeat;
-  background-image: url(photos/app.png);
+  margin-top: 225px;
   padding-bottom: 147px;
-  background-position: bottom right 20px;
-  padding-left: 219px;
-  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .join-shop{
@@ -282,8 +343,9 @@ margin-top: 225px;
   font-weight: 900;
   font-size: 55px;
   padding-top: 361px;
+  padding-bottom: 37px;
   color: white;
-  padding-left: 476px;
+ margin: 0 auto;
   text-align: center;
 }
 
@@ -293,9 +355,88 @@ margin-top: 225px;
   font-size: 32px;
   padding-top: 37px;
   color: white;
-  padding-left: 475px;
+margin: 0 auto;
+  text-align: center;
+  padding-bottom: 49px;
 }
 
-.shop-com .container{
-  background-color: rgba(229, 198, 67, 1);
+.imgg-app{
+  padding-right: 100px;
+}
+
+.container{
+  width: 1720px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section-one{
+  display: flex;
+  justify-content: space-between;
+}
+
+.beauty-g{
+  width: 871px;
+  height: 784px;
+}
+
+
+.form{
+  margin: 0 auto;
+width: 574px;
+height: 87px;
+left: 673px;
+top: 6026px;
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+
+.form__field{
+width: 269px;
+height: 25px;
+left: 700px;
+top: 6053px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+letter-spacing: 0.03em;
+color: #767676;
+margin-left: 27px;
+margin-right: 97px;
+}
+
+
+
+
+.btn{
+  margin-top: 10px;
+width: 161px;
+height: 67px;
+left: 1076px;
+top: 6036px;
+background: #000000;
+border-radius: 8px;
+}
+
+
+.btn{
+left: 1114px;
+top: 6053px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 33px;
+line-height: 35px;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+
+.last-section{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
 }
