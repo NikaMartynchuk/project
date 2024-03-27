@@ -298,6 +298,7 @@ background-position: bottom right;
 
 
 .pay-text{
+  position: relative;
   z-index: 100;
   font-family: "Poppins", sans-serif;
   font-weight: 900;
@@ -516,6 +517,16 @@ background: #000000;
 border-radius: 8px;
 }
 
+.pay-text::before{
+  z-index: -1;
+  top: 0px;
+  content: "";
+  position: absolute;
+  background-color: white;
+  transform: rotate(-2deg);
+  width: 494px;
+  height: 112px;
+}
 
 .btn{
 left: 1114px;
