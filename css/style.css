@@ -56,8 +56,6 @@ align-items: baseline;
 .maln-a:hover{
 color: #E1C441;
 font-family: "About", sans-serif;
-font-weight: 500;
-font-size: 26px;
 }
 
 #company{
@@ -68,8 +66,6 @@ color: #D9D9D9;
 #company:hover{
   color: #E4C542;
   font-family: "About", sans-serif;
-  font-weight: 500;
-  font-size: 34px;
 }
 
 .footer-div{
@@ -126,7 +122,9 @@ padding-bottom: 19px;
   color: #000000;
 }
 
-
+*:focus {
+  outline: none;
+}
 
 .explore{
   z-index: 100;
@@ -146,14 +144,29 @@ padding-bottom: 19px;
 
 .explore::before{
 z-index: -1;
-right: 32px;
+right: 8px;
+top: 238px;
 rotate: 2;
   content: "";
   position: absolute;
-  background-image: url(photos/Shopping\ Website\ \(Community\)\ \(4\).zip);
-  width: 464px;
+  background-color: #ecd362;
+  transform: rotate(-2deg);
+  width: 484px;
 height: 112px;
 }
+
+.explore::after{
+  z-index: -1;
+  right: 32px;
+  top: 2px;
+  rotate: 2;
+    content: "";
+    position: absolute;
+    background-color: #ffffff;
+    transform: rotate(-1deg);
+    width: 464px;
+  height: 112px;
+  }
 
 .main-text{
 height: 58px;
@@ -184,19 +197,36 @@ padding-top: 61px;
 padding-bottom: 61px;
 }
 
+.young{
+  width: 511px;
+  height: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  background-image: url(../photos/vector.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
 
 .brand-img:hover{
-  box-shadow: 2px 4px 10px #626117;
+  box-shadow: 15px 8px 10px #838132;
+  border-radius: 15px;
 }
 
 .new-arrivals{
-  width: 404px;
+  width: 380px;
+  height: 58px;
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-size: 48px;
   margin-top: 69px;
   margin-bottom: 118px;
+  background-image: url(../photos/vector.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
+
+
 
 .main-h-one{
   font-family: "Poppins", sans-serif;
@@ -211,6 +241,7 @@ padding-bottom: 61px;
   font-size: 24px;
   margin-top: 7px;
   color: grey;
+  margin-bottom: 30px;
 }
 
 .new-arivals .container{
@@ -229,6 +260,11 @@ padding-bottom: 61px;
 background-image: url(photos/arrow.png);
 background-repeat: no-repeat;
 background-position: bottom right;
+}
+
+.girls-div:hover{
+  border-radius: 17px;
+  box-shadow: rgb(176, 176, 176) 20px 10px 10px;
 }
 
 
@@ -262,7 +298,7 @@ background-position: bottom right;
 
 
 .pay-text{
-  background-image: url(photos/whiteline);
+  z-index: 100;
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-size: 111.61px;
@@ -271,13 +307,20 @@ background-position: bottom right;
   margin-left: 32px;
 }
 
+
 .payday{
   background-image: linear-gradient(to left top, #E0C340, #DFC23E, #E1C441, #E3C743, #E4C542, #E6C744, #E7C845, #E5C643, #E6C945, #E3C743, #E9CA48,#EDCE49, #F0D44C, #F4D84F, #F6DA52, #F7DB53, #F9DD55, #F9DF56, #FAE157, #F9DF56);
   margin-top: 190px;
 }
 
 .sale-now{
+  z-index: 100;
 padding-left: 68px;
+}
+
+.sale-now::before{
+  z-index: -100;
+  background-color: white;
 }
 
 .payday .container-1{
@@ -301,6 +344,14 @@ padding-left: 68px;
 
 .rose-girls{
   margin-top: 104px;
+}
+.rose-girls:hover{
+  border-radius: 18px;
+  box-shadow: #9e9e9e 20px 10px 20px;
+}
+.pinkk-girls:hover{
+  border-radius: 18px;
+  box-shadow: #9e9e9e 20px 10px 20px;
 }
 
 #one-girl{
@@ -374,7 +425,7 @@ background-position: bottom right;
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-size: 55px;
-  padding-top: 361px;
+  padding-top: 261px;
   padding-bottom: 37px;
   color: white;
  margin: 0 auto;
@@ -444,14 +495,16 @@ margin-right: 97px;
   width: 890px;
 }
 
+.groupp-app{
+  width: 700px;
+}
+
 .btn:hover{
   background-color: #E4C542;
   box-shadow: #5e5e5e 4px 6px 4px;
 }
 
-.onee:hover{
-width: 60px;
-}
+
 
 .btn{
   margin-top: 10px;
